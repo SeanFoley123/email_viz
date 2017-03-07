@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Example based on http://bl.ocks.org/mbostock/3887118 -->
+		<!-- Tooltip example from http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html -->
+		<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="static/Skeleton-2.0.4/css/normalize.css">
+	    <link rel="stylesheet" href="static/Skeleton-2.0.4/css/skeleton.css">
+	    <script src="https://d3js.org/d3.v3.min.js"></script>
+
+		<style>
+			body {
+			  font: 11px sans-serif;
+			}
+
+			.axis path,
+			.axis line {
+			  fill: none;
+			  stroke: #000;
+			  shape-rendering: crispEdges;
+			}
+
+			.dot {
+			  stroke: #000;
+			}
+
+			.tooltip {
+			  position: absolute;
+			  width: 200px;
+			  height: 28px;
+			  pointer-events: none;
+			}
+			.thing {
+				margin: auto;
+				margin-bottom: 15px;
+				width: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		  <div class="title thing">
+		  	<h3 style="text-align:center"> Email List Activities over Time </h3>
+	      </div>
+	      <div class="graph thing">
+	      </div>
+	      <div class="legend thing" style="text-align:center; width:100%">
+	     
+	      </div>
+	      <script src="static/graph.js"></script>
+    </body>
+</html>
