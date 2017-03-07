@@ -1,4 +1,5 @@
 #Visualizing the lives of Olin's email lists
+See it [in action](https://seanfoley123.github.io/email_viz/)! 
 ##Dependencies and running the code
 If you want to play with the Javascript, the repo is self-contained at the moment; all you need is an internet connection to reach the CDN for D3. 
 
